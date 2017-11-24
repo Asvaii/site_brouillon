@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 21 nov. 2017 à 06:54
+-- Généré le :  mar. 21 nov. 2017 à 08:20
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.1.9
 
@@ -163,7 +163,7 @@ CREATE TABLE IF NOT EXISTS `utilisateurs` (
   `mot_de_passe` varchar(255) NOT NULL,
   `categorie_utilisateur` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `utilisateurs`
@@ -179,7 +179,8 @@ INSERT INTO `utilisateurs` (`id`, `nom`, `prenom`, `adresse`, `mail`, `pseudo`, 
 (7, 'MOREAU', 'Alphonse', '19, avenue du Marechal Juin\r\n97436 SAINT-LEU', 'alphonse.moreau@gmail.com', 'Grearlacte1948', 'xoeL4quoar', 'client_principal'),
 (8, 'DUFOUR', 'Hamilton', '22, avenue de Provence\r\n26000 VALENCE', 'hamilton.dufour@gmail.com', 'Thestrand', 'eiPhee0hai', 'client_principal'),
 (9, 'MARIER', 'Martin', '86, rue des six frères Ruellan\r\n44230 SAINT-SÉBASTIEN-SUR-LOIRE', 'martin.marier@gmail.com', 'Siblen', 'she8ahLee3', 'client_principal'),
-(10, 'LAMONTAGNE', 'Christine', '26, quai Saint-Nicolas\r\n59200 TOURCOING', 'christine.lamontagne@gmail.com', 'Buttleace', 'UQueen5JieY', 'client_principal');
+(10, 'LAMONTAGNE', 'Christine', '26, quai Saint-Nicolas\r\n59200 TOURCOING', 'christine.lamontagne@gmail.com', 'Buttleace', 'UQueen5JieY', 'client_principal'),
+(11, 'BELLEMARE', 'Gilles', '14, boulevard Amiral Courbet\r\n94310 ORLY', 'gilles.bellemar@gmail.com', 'Hasuld', 'reWith0aeg', 'client_principal');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
